@@ -1,0 +1,41 @@
+body, h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation bar */
+nav {
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Navigation links */
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+  margin-right: 10px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #004999;
+}
+
+/* Add spacing below nav */
+nav + * {
+  margin-top: 20px;
+}
+
+/* General page layout */
+.container {
+  padding: 20px;
+}
